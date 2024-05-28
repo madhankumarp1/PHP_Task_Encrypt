@@ -1,0 +1,84 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b8aaaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.registration-container {
+  background-color: #eacece;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.registration-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #f2a54a;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff8c00;
+  color: black;
+}
+
+/* back button div add chnage  */
+
+button.back_btn {
+  width: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2em;
+  border-radius: 1em;
+  background: lightcoral;
+  color: black;
+  font-family: fangsong;
+}
+.button_div {
+  width: 2em;
+  height: 0em;
+  display: flex;
+}
+
+.back_btn:hover {
+  background-color: red;
+  color: white;
+}
